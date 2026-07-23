@@ -1,0 +1,18 @@
+# 本地账号数据库（包含密码哈希，不提交到版本库）
+data/users.db
+data/users.db-shm
+data/users.db-wal
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 本地运行日志
+logs/
+
+# Chroma 向量库与导入去重记录，可由 data/ 知识文件重新生成
+chroma_db/
+md5.text
+
+# 临时生成文件
+tmp/
